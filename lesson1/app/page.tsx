@@ -13,6 +13,8 @@ export default function Home() {
         <Link href="/service">Service Page</Link>
         <br />
         <Link href="/blogs">Blogs Page</Link>
+        <br />
+        <Link href="/docs">Docs Page</Link>
       </div>
     </>
   );
