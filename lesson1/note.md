@@ -5,3 +5,7 @@
 ## Ngày 2
 
 - Nested Dynamic Routes
+
+## Ngày 3
+
+- Layout

@@ -5,7 +5,7 @@ const ServicePage = () => {
     <>
       <div>ServicePage</div>
       <p>All of services</p>
-      <ul>
+      <ul className="grid grid-cols-2">
         <li>
           <Link href="service/web_dev">Web Development</Link>
         </li>

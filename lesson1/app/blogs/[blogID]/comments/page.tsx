@@ -1,3 +1,5 @@
+import { notFound } from "next/navigation";
+
 type ParamsProps = {
   params: Promise<{
     blogID: string;
