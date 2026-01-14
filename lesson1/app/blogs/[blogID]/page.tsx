@@ -6,9 +6,9 @@ type ParamsProps = {
   }>;
 };
 
-export default async function page({ params }: ParamsProps) {
+export default async function BlogIDPage({ params }: ParamsProps) {
   const { blogID } = await params;
-  if (blogID === "test") {
+  if (!/^\d+$/.test(blogID)) {
     return notFound();
   }
   return (
